@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - East Dallas AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>East Dallas AI</h1>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="cta-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="hero" style="padding: 3rem 0;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>Let's discuss how AI can transform your business</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>Have questions? We'd love to hear from you. Get in touch with our team.</p>
+
+                    <div class="info-item">
+                        <h3>📍 Location</h3>
+                        <p>East Dallas, Texas<br>Serving businesses across the Dallas area</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p><a href="tel:+14691234567">(469) 123-4567</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p><a href="mailto:hello@eastdallasai.com">hello@eastdallasai.com</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>⏰ Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM CT<br>
+                        Saturday: 10:00 AM - 4:00 PM CT<br>
+                        Sunday: Closed</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" required placeholder="Your Company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="industry">Industry *</label>
+                            <select id="industry" name="industry" required>
+                                <option value="">Select an industry</option>
+                                <option value="retail">Retail</option>
+                                <option value="restaurant">Restaurant/Food Service</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="services">Professional Services</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="logistics">Logistics/Transportation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="challenge">What's Your Main Business Challenge? *</label>
+                            <textarea id="challenge" name="challenge" required placeholder="Tell us about the challenges you're facing..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="services">Services Interested In</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Data Analytics">
+                                    Data Analytics & Insights
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Process Automation">
+                                    Process Automation
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Customer Intelligence">
+                                    Customer Intelligence
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="Custom AI Tools">
+                                    Custom AI Tools
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select a range</option>
+                                <option value="under-1000">Under $1,000/month</option>
+                                <option value="1000-2500">$1,000 - $2,500/month</option>
+                                <option value="2500-5000">$2,500 - $5,000/month</option>
+                                <option value="over-5000">$5,000+/month</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" placeholder="Any other details you'd like to share..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+
+                    <p class="form-note">* Required fields. We respect your privacy and will never share your information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="background-color: #F5F5F5;">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-subtitle">Quick answers to common questions</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does implementation take?</h3>
+                    <p>Implementation timelines vary based on complexity. Most projects take 4-12 weeks from discovery to full deployment. We'll provide a detailed timeline during your consultation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you offer support after implementation?</h3>
+                    <p>Absolutely! All our service packages include ongoing support and optimization. We're here to ensure your AI solution keeps delivering value.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What if I'm new to AI?</h3>
+                    <p>No problem! We work with businesses at all levels of AI maturity. Our team will guide you through the process and provide comprehensive training.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Can you work with my existing systems?</h3>
+                    <p>Yes. We specialize in integrating AI solutions with existing business systems and software. Minimal disruption guaranteed.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What's your pricing model?</h3>
+                    <p>We offer flexible pricing based on your needs and budget. You can start with our Starter plan ($999/month) and scale up as needed.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you offer a free consultation?</h3>
+                    <p>Yes! We offer a free initial consultation to discuss your business challenges and explore how AI can help.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Schedule your free consultation today and discover how AI can transform your business</p>
+            <a href="#contactForm" class="btn btn-secondary">Start Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>East Dallas AI</h4>
+                    <p>Affordable AI solutions for small businesses in East Dallas</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 East Dallas AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

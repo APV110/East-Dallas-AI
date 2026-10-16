@@ -1041,7 +1041,7 @@ section {
     --font-sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
     --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     --transition: all 0.25s ease;
-    --color-hero-title: #DCC06A;
+    --color-hero-title: #1A1A1A;
 }
 
 body {

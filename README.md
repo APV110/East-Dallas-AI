@@ -11,50 +11,21 @@ This is a modern, responsive website built with vanilla HTML, CSS, and JavaScrip
 - **Texas Flag Color Scheme** - Blue (#003DA5) and Red (#BF0A30)
 - **Fully Responsive** - Mobile-first design for all devices
 - **Fast & Lightweight** - Static HTML/CSS/JS with no dependencies
-- **Lead Generation** - Formspree-integrated contact form
+- **Lead Generation** - Simple `mailto:` contact links
 - **Accessibility Focused** - WCAG-friendly design
 
 ## 📄 Pages
 
 ### 1. **Homepage** (`index.html`)
 - Hero section with primary CTA
-- Solutions overview (4 service cards)
-- How-it-works process flow (4 steps)
-- Impact/results statistics
-- Call-to-action section
-- Footer with links and social media
+- Solutions overview (3 cards: data, automation, customer intelligence)
+- Short process overview
+- Call-to-action (`mailto:` link)
 
-### 2. **Services** (`services.html`)
-- Detailed service descriptions (4 services)
-  - Data Analytics & Insights
-  - Process Automation
-  - Customer Intelligence
-  - Custom AI-Powered Tools
-- Implementation process details
-- Flexible pricing tiers (Starter, Professional, Enterprise)
-- Business impact metrics
-
-### 3. **About Us** (`about.html`)
-- Company mission statement
-- Core values (6 values with descriptions)
-- Why choose East Dallas AI (6 key differentiators)
-- Detailed approach/process (5 steps)
-- By-the-numbers statistics
-- Trust-building content
-
-### 4. **Contact** (`contact.html`)
-- Contact information (location, phone, email, hours)
-- Comprehensive contact form with Formspree integration
-- Form fields:
-  - Name, Email, Phone (optional)
-  - Company Name
-  - Industry (dropdown)
-  - Main Business Challenge (textarea)
-  - Services interested in (checkboxes)
-  - Budget range (dropdown)
-  - Additional information (optional)
-- Frequently Asked Questions (6 FAQs)
-- Social media links
+### 2. **Approach** (`about.html`)
+- How East Dallas AI works with local businesses
+- Four-step process: Discovery, Strategy, Development, Optimization
+- Contact call-to-action (`mailto:` link)
 
 ## 🚀 Getting Started
 
@@ -86,11 +57,9 @@ cd East-Dallas-AI
 East-Dallas-AI/
 ├── docs/
 │   ├── index.html          # Homepage
-│   ├── services.html       # Services page
-│   ├── about.html          # About us page
-│   ├── contact.html        # Contact form page
+│   ├── about.html          # Approach page
 │   ├── styles.css          # Main stylesheet
-│   └── script.js           # JavaScript (mobile menu, forms)
+│   └── script.js           # JavaScript (mobile menu, smooth scroll)
 ├── README.md               # This file
 └── .gitignore             # Git ignore rules
 ```
@@ -118,38 +87,15 @@ East-Dallas-AI/
 
 ## 📝 Configuration & Customization
 
-### 1. **Setup Formspree for Contact Form:**
-
-The contact form is currently configured with a placeholder. To make it functional:
-
-1. **Create a Formspree account:**
-   - Visit https://formspree.io
-   - Sign up for free
-
-2. **Create a new form:**
-   - Click "New Form"
-   - Give it a name (e.g., "East Dallas AI Contact")
-   - Copy your form ID
-
-3. **Update the form action in `contact.html`:**
-   - Find line with: `action="https://formspree.io/f/YOUR_FORM_ID"`
-   - Replace `YOUR_FORM_ID` with your actual form ID
-   - Example: `action="https://formspree.io/f/xyzabc123"`
-
-4. **Test the form:**
-   - Fill out and submit
-   - Check your email for submissions
-
-### 2. **Customize Content:**
+### 1. **Customize Content:**
 
 Edit the HTML files to update:
 - **Company name and branding** - Change "East Dallas AI" throughout
-- **Contact information** - Update phone, email, address in `contact.html`
-- **Services** - Modify service descriptions in `services.html`
-- **Pricing** - Update pricing tiers in `services.html`
-- **Social media links** - Update footer and contact page
+- **Contact information** - Update the `mailto:` address in `index.html` and `about.html`
+- **Services** - Edit the solution cards in `index.html`
+- **Approach** - Edit the process steps in `about.html`
 
-### 3. **Customize Colors:**
+### 2. **Customize Colors:**
 
 Edit `styles.css` to change colors:
 ```css
@@ -160,7 +106,7 @@ Edit `styles.css` to change colors:
 }
 ```
 
-### 4. **Add Logo:**
+### 3. **Add Logo:**
 
 1. Create an `images/` folder in `/docs`
 2. Add your logo as `logo.png` or `logo.svg`
@@ -204,14 +150,13 @@ Edit `styles.css` to change colors:
 
 ### Regular Tasks:
 - ✅ Keep contact information updated
-- ✅ Monitor form submissions via Formspree
 - ✅ Update testimonials/case studies periodically
 - ✅ Refresh pricing information
 - ✅ Update team/company info
 
 ### Performance:
 - Current page load: ~1-2 seconds (static HTML/CSS)
-- No external dependencies (except Formspree for forms)
+- No external dependencies 
 - Fully optimized for SEO
 
 ## 📞 Contact Information
@@ -228,7 +173,6 @@ Edit `styles.css` to change colors:
 
 ## 📋 Checklist for Launch
 
-- [ ] Formspree form ID configured in `contact.html`
 - [ ] GitHub Pages enabled in repository settings
 - [ ] Custom domain configured (optional)
 - [ ] Social media links updated in footer

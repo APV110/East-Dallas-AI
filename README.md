@@ -22,7 +22,7 @@ This is a modern, responsive website built with vanilla HTML, CSS, and JavaScrip
 - Short process overview
 - Call-to-action (`mailto:` link)
 
-### 2. **Approach** (`about.html`)
+### 2. **Approach** (`our-approach.html`)
 - How East Dallas AI works with local businesses
 - Four-step process: Discovery, Strategy, Development, Optimization
 - Contact call-to-action (`mailto:` link)
@@ -57,7 +57,7 @@ cd East-Dallas-AI
 East-Dallas-AI/
 ├── docs/
 │   ├── index.html          # Homepage
-│   ├── about.html          # Approach page
+│   ├── our-approach.html          # Approach page
 │   ├── styles.css          # Main stylesheet
 │   └── script.js           # JavaScript (mobile menu, smooth scroll)
 ├── README.md               # This file
@@ -91,9 +91,9 @@ East-Dallas-AI/
 
 Edit the HTML files to update:
 - **Company name and branding** - Change "East Dallas AI" throughout
-- **Contact information** - Update the `mailto:` address in `index.html` and `about.html`
+- **Contact information** - Update the `mailto:` address in `index.html` and `our-approach.html`
 - **Services** - Edit the solution cards in `index.html`
-- **Approach** - Edit the process steps in `about.html`
+- **Approach** - Edit the process steps in `our-approach.html`
 
 ### 2. **Customize Colors:**
 

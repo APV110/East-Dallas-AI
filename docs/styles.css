@@ -1351,6 +1351,7 @@ a {
 .intro-grid h2,
 .section-heading h2,
 .neighborhood-copy h2,
+.process-layout h1,
 .process-layout h2,
 .home-cta h2 {
     margin: 0 0 1.35rem;
@@ -1361,6 +1362,7 @@ a {
 .intro-grid h2 em,
 .section-heading h2 em,
 .neighborhood-copy h2 em,
+.process-layout h1 em,
 .process-layout h2 em,
 .home-cta h2 em {
     color: var(--color-accent);
@@ -1903,6 +1905,7 @@ a {
     .intro-grid h2,
     .section-heading h2,
     .neighborhood-copy h2,
+    .process-layout h1,
     .process-layout h2 {
         font-size: clamp(2.65rem, 12vw, 4rem);
     }

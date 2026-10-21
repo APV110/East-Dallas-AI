@@ -167,7 +167,7 @@ Edit `styles.css` to change colors:
 - Sunday: Closed
 
 **Get in Touch:**
-- Email: hello@eastdallasai.com
+- Email: eastdallas.ai@gmail.com
 - Phone: (469) 123-4567
 - Location: East Dallas, Texas
 
